@@ -22,7 +22,7 @@ body
 .circulo
 {
     width: 470px;
-    height: 100px;
+    height: 116px;
 
     background-color:rgb(8, 133, 120);
     border-radius: 10%;
@@ -40,6 +40,10 @@ body
 {
     font-family: "Fuente Ruben";
 }
+#FuenteLetras
+{
+    font-family: "Fuente Jorge";
+}
 @font-face
 {
     font-family: "Fuente Diego";
@@ -51,10 +55,8 @@ body
     font-family: "Fuente Ruben";
     src: url("../Statics/EduVICWANTHandPre-VariableFont_wght.ttf");
 }
-
-
 @font-face {
-    font-family: "miFuente";
+    font-family: "Fuente Jorge";
     src: url(../Statics/SourGummy-VariableFont_wdth\,wght.ttf) format(truetype);
 }
 
@@ -76,8 +78,8 @@ body
     font-size: medium;
 }
 .creditos {
-    width: 250px;
-    height: 50px;
+    width: 500px;
+    height: 97px;
 
     background-color: #5eac6b;
     border-style: solid;
