@@ -1,0 +1,19 @@
+body
+{
+    background-color: rgb(105, 219, 166);
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+.circulo
+{
+    width: 470px;
+    height: 100px;
+
+    background-color:rgb(8, 133, 120);
+    border-radius: 10%;
+    display: inline-block;
+    margin: 10px;
+
+    align-content: center;
+    text-align: center;
+}
