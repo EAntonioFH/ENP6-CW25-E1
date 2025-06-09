@@ -17,3 +17,11 @@ body
     align-content: center;
     text-align: center;
 }
+#FuentePrecursive
+{
+    font-family: "Mi fuente";
+}
+@font-face {
+    font-family: "Mi fuente";
+    src: url("../Statics/EduVICWANTHandPre-VariableFont_wght.ttf");
+}
