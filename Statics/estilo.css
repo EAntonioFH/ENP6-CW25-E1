@@ -1,13 +1,29 @@
 body
 {
+
     background-color: lightskyblue;
+    background-color: rgb(105, 219, 166);
 }
 .Cuadrado 
 {
     width: 250px;
-    height: 50px;
+    height: 100px;
 
     background-color:rgb(196, 245, 122);
+    border-radius: 10%;
+    display: inline-block;
+    margin: 10px;
+
+    align-content: center;
+    text-align: center;
+
+}   
+.circulo
+{
+    width: 470px;
+    height: 100px;
+
+    background-color:rgb(8, 133, 120);
     border-radius: 10%;
     display: inline-block;
     margin: 10px;
@@ -17,9 +33,20 @@ body
 }
 #FuenteNegritas
 {
-    font-family: "Mi fuente";
+    font-family: "Fuente Diego";
 }
-@font-face {
-    font-family: "Mi fuente";
+#FuentePrecursive
+{
+    font-family: "Fuente Ruben";
+}
+@font-face
+{
+    font-family: "Fuente Diego";
+
     src: url("../Statics/BebasNeue-Regular.ttf");
+}
+@font-face
+{
+    font-family: "Fuente Ruben";
+    src: url("../Statics/EduVICWANTHandPre-VariableFont_wght.ttf");
 }
