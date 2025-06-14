@@ -32,6 +32,17 @@ body
     align-content: center;
     text-align: center;
 }
+.recuadro
+{
+    width: 550px;
+    height: 100px;
+    background-color: #ff4500;
+    border: 5px solid #292626;
+    border-radius: 15px;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+}
 #FuenteNegritas
 {
     font-family: "Fuente Diego";
@@ -43,6 +54,10 @@ body
 #FuenteLetras
 {
     font-family: "Fuente Jorge";
+}
+#FuenteKanit
+{
+    font-family: "Fuente Arturo";
 }
 @font-face
 {
@@ -58,6 +73,11 @@ body
 @font-face {
     font-family: "Fuente Jorge";
     src: url(../Statics/SourGummy-VariableFont_wdth\,wght.ttf) format(truetype);
+}
+@font-face
+{
+    font-family: "Fuente Arturo";
+    src: url("../Statics/Kanit-Regular.ttf")
 }
 
 .encabezado {
